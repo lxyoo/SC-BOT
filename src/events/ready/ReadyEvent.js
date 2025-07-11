@@ -4,14 +4,18 @@ module.exports = class ReadyEvent extends BaseEvent {
   constructor() {
     super('ready');
   }
-  async run (client) {
-    console.log(client.user.tag + ' has logged in.')
+
+  async run(client) {
+    console.log(`${client.user.tag} has logged in.`);
+
     client.user.setPresence({
-      activity: {
-        name: `Over Salam Community`,
-        type: "WATCHING"
-      },
-      status: 'do not disturb'
-    })
+      activities: [
+        {
+          name: 'Over Goon City',
+          type: 'WATCHING', // Can also be PLAYING, LISTENING, COMPETING
+        }
+      ],
+      status: 'online' // valid: 'online', 'idle', 'dnd', or 'invisible'
+    });
   }
-}
+};

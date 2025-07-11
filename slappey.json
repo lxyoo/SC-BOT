@@ -1,7 +1,0 @@
-{
-  "name": "Salam Community Bot",
-  "language": "javascript",
-  "manager": "npm",
-  "token": "token here",
-  "prefix": "%"
-}
