@@ -13,9 +13,9 @@ module.exports = class ManualvCommand extends BaseCommand {
     let guild = message.guild.name
 
     const embed = new Discord.MessageEmbed()
-      .setTitle('✅ Verified!')
+      .setTitle('✅ Verified.')
       .setDescription(`${message.author} has been verified in **${guild}**.`)
-      .setColor('#ff0000')
+      .setColor('GREEN')
     message.channel.send(embed);
     await message.member.roles.add(role).catch(err => console.log(role));
   }

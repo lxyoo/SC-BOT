@@ -12,12 +12,56 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.3",
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.18.0",
+    "@distube/soundcloud": "^1.3.5",
+    "@distube/spotify": "^1.6.1",
+    "@distube/youtube-dl": "^2.2.4",
+    "@distube/ytsr": "^2.0.4",
+    "@google-cloud/speech": "^7.1.0",
+    "@google-cloud/text-to-speech": "^6.1.0",
+    "axios": "^1.7.7",
+    "buffer": "^6.0.3",
+    "canvacord": "^6.0.2",
+    "canvas": "^3.1.2",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "cohere-ai": "^7.17.1",
+    "discord-games": "^1.1.2",
+    "discord.js": "^13.17.1",
+    "distube": "^3.3.4",
+    "dotenv": "^17.0.1",
+    "fetch-blob": "^4.0.0",
+    "ffmpeg-static": "^5.2.0",
+    "form-data": "^4.0.3",
+    "fs": "^0.0.1-security",
+    "genius-lyrics-api": "^3.2.1",
+    "googleapis": "^150.0.1",
+    "groq-sdk": "^0.26.0",
+    "jimp": "^1.6.0",
+    "node-fetch": "^2.7.0",
+    "openai": "^5.8.2",
+    "opusscript": "^0.0.8",
+    "play-dl": "^1.9.7",
     "pretty-ms": "^8.0.0",
+    "prism-media": "^1.3.5",
+    "puppeteer": "^24.11.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "quick.db": "^7.1.3",
-    "sourcebin_js": "^0.0.3-ignore"
+    "random-puppy": "^1.1.0",
+    "slappey": "^4.0.0",
+    "sourcebin_js": "^0.0.3-ignore",
+    "weky": "^3.1.8",
+    "youtube-search-api": "^2.0.0",
+    "youtube-sr": "^4.3.12",
+    "ytdl-core": "4.9.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "overrides": {
+    "undici": "4.22.0"
   }
+  
 }
