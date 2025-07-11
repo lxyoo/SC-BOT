@@ -205,5 +205,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center" style="background: linear-gradient(135deg, #ff69b4, #ffb6c1, #ffc0cb); padding: 20px; border-radius: 15px; margin: 20px 0;">
   <b>Made with 🌸 by Quinn</b>
   
-  [Report Bug](https://github.com/yourusername/lumic-bot/issues) • [Request Feature](https://github.com/yourusername/lumic-bot/issues)
+  [Report Bug](https://github.com/lxyoo/SC-BOT/issues) • [Request Feature](https://github.com/lxyoo/SC-BOT/issues)
 </div>
