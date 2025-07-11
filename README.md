@@ -54,7 +54,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/lumic-bot.git
+   git clone https://github.com/lxyoo/SC-BOT.git
    cd lumic-bot
 
    ```
